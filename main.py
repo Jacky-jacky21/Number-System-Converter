@@ -16,13 +16,15 @@ def main():
         print(result)
         
     #btd
-    if args.bintodec:
+    elif args.bintodec:
         result = numberconv.binToDec(args.bintodec)
         print(result)
 
     #Open menu
     else:
-        menu.showMenu()
+        print("=== Welcome to the converter menu! ===")
+        while True:
+            menu.showMenu()
 
 if __name__ == "__main__":
     main()

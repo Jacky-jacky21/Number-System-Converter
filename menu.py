@@ -20,7 +20,6 @@ SYSTEM_NAMES = {
 
 
 def showMenu():
-    print("=== Welcome to the converter menu! ===")
     #Source
     print("\nSelect the SOURCE system:")
     print("1) Decimal")
@@ -62,6 +61,3 @@ def showMenu():
         print(f"\nResult ({targetSystem}): {result}\n")
     else:
         print(f"\n[Error] Conversion from {sourceSystem} to {targetSystem} is not supported yet!\n")
-
-while True:
-    showMenu()
