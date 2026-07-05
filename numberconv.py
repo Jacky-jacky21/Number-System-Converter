@@ -16,4 +16,11 @@ def binToDec(number):
         return str(int(number, 2))
     except ValueError:
         return ERRMSG
+
+#Decimal to Hexadecimal   
+def decToHex(number):
+    try: 
+        return hex(int(number)).replace("0x", "").upper()
+    except ValueError:
+        return ERRMSG
         
