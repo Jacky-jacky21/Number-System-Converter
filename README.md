@@ -14,6 +14,7 @@ A lightweight CLI tool to convert numbers between different numeral systems (Dec
 
 - Decimal -> Binary
 - Binary -> Decimal
+- Decimal -> Hexadecimal
 
 ---
 
