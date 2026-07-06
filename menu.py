@@ -6,7 +6,9 @@ CONVERTER_MAP = {
     ("Decimal", "Binary"): numberconv.decToBin,
     ("Decimal", "Hexadecimal"): numberconv.decToHex,
     ("Binary", "Decimal"): numberconv.binToDec,
+    ("Binary", "Hexadecimal"): numberconv.binToHex,
     ("Hexadecimal", "Decimal"): numberconv.hexToDec,
+    ("Hexadecimal", "Binary"): numberconv.hexToBin,
     #If both are the same
     ("Decimal", "Decimal"): lambda x: x,
     ("Binary", "Binary"): lambda x: x,
