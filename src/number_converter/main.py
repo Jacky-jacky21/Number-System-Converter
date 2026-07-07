@@ -1,6 +1,6 @@
 import argparse
-import numberconv
-import menu
+from . import numberconv
+from . import menu
 
 __version__ = "1.1.0"
 

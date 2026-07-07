@@ -1,5 +1,5 @@
 import sys 
-import numberconv
+from . import numberconv
 
 
 CONVERTER_MAP = {
